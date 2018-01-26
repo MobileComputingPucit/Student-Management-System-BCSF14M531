@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.saad.student_management.SignIn">
+
+    <EditText
+        android:id="@+id/email"
+
+        android:hint="Enter Email"
+        android:inputType="textWebEmailAddress"
+
+        android:paddingLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:paddingTop="30dp"
+        android:background="#c0c0c0"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/pass"
+
+        android:paddingLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="30dp"
+        android:background="#c0c0c0"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter password"/>
+
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/sign_in"
+        android:text="Signin"
+        android:onClick="onClick"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
